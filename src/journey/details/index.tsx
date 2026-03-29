@@ -1,0 +1,15 @@
+export {default as JourneyDetails} from './component/JourneyDetails';
+export {JourneyDetailsInfo} from './component/JourneyDetailsInfo';
+export {default as JourneySelfBookedFlightCard} from './component/journeyDetailsCard/selfbook/JourneySelfBookedFlightCard';
+// export { JourneyRoadTransportCard } from './component/journeyDetailsCard/roadTransport/JourneyRoadTransportCard';
+export {DayScheduleCard as JourneyDayScheduleCard} from './component/journeyDetailsCard/dayschedule/JourneyDayScheduleCard';
+export {JourneyVisaDetailsCard} from './component/journeyDetailsCard/visa/JourneyVisaDetailsCard';
+export {default as JourneyMealsCard} from './component/journeyDetailsCard/meals/JourneyMealsCard';
+export {default as JourneyHotelCard} from './component/journeyDetailsCard/hotel/JourneyHotelCard';
+export {default as JourneyGroupTourCard} from './component/journeyDetailsCard/group/JourneyGroupTourCard';
+export {default as JourneyCarCard} from './component/journeyDetailsCard/car/JourneyCarCard';
+export {default as JourneyCruiseCard} from './component/journeyDetailsCard/cruise/JourneyCruiseCars';
+export {default as JourneyInsuranceCard} from './component/journeyDetailsCard/insurance/JourneyInsuranceCard';
+export {default as JourneyTransferCard} from './component/journeyDetailsCard/transfer/JourneyTransferCard';
+export {default as JourneyActivityCard} from './component/journeyDetailsCard/activity/JourneyActivityCard';
+export {default as JourneyFlightCard} from './component/journeyDetailsCard/flight/JourneyFlightCard';
