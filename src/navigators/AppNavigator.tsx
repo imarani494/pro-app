@@ -16,8 +16,14 @@ function AppNavigator(): React.JSX.Element {
         <Stack.Navigator
           initialRouteName="Auth"
           screenOptions={{headerShown: false}}>
+
+
+
+
           
           <Stack.Screen name="Auth" component={AuthStack} />
+
+          
           <Stack.Screen name="JourneyFlow" component={JourneyStack} />
         </Stack.Navigator>
       </BottomSheetModalProvider>
